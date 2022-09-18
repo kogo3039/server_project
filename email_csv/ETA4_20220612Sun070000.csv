@@ -1,0 +1,5 @@
+vessel_imo,vessel_name,vessel_flag,vessel_type,eta_place_name,eta_country_name,eta_date,last_reported_port,last_reported_country,last_reported_port_sail_date,destination_port,destination_country,vessel_technical_manager
+9853228,NAVIG8 GAUNTLET,Liberia,Tanker,MONGSTAD,NORWAY,06/17/2022, , , ,MONGSTAD,NORWAY, 
+9122966,ASIAN VISION,South Korea,Cargo,WALLHAMN,SWEDEN,06/13/2022, , , ,WALLHAMN,SWEDEN, 
+9485045,OCEAN DESTINY,Liberia,Cargo,ODENSE,DENMARK,06/08/2022, , , ,ODENSE,DENMARK, 
+9473925,SONGA JADE,Malta,Tanker,GOTEBORG,SWEDEN,06/10/2022, , , ,GOTEBORG,SWEDEN, 
