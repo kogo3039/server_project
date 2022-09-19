@@ -25,7 +25,7 @@ host = "host"
 port = port
 CONST_MONGO_LOCAL_DB = "db"
 CONST_MONGO_LOCAL_URL = f"mongodb://{_id}:{password}@{host}:{port}/{CONST_MONGO_LOCAL_DB}?authSource=admin"
-CONST_MONGO_LOCAL_COLLECTION = " ollection"
+CONST_MONGO_LOCAL_COLLECTION = "collection"
 
 
 def aggregate_mongo_data_from(collection_name, pipline={}):
