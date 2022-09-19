@@ -19,11 +19,11 @@ CONST_KR_TABLE = "test_lvi_prm"
 def connect_DB(table, kr_table):
 
     try:
-        connection = psycopg2.connect(user="ecolabmaster",
+        connection = psycopg2.connect(user="user",
                                       password="password",
-                                      host="118.67.128.207",
-                                      port="5432",
-                                      database="oceanlook")
+                                      host="host",
+                                      port="port",
+                                      database="database")
 
         cursor = connection.cursor()
 
@@ -52,11 +52,11 @@ def connect_DB(table, kr_table):
 def connect_DB2(table):
 
     try:
-        connection = psycopg2.connect(user="ecolabmaster",
+        connection = psycopg2.connect(user="user",
                                       password="password",
-                                      host="118.67.128.207",
-                                      port="5432",
-                                      database="oceanlook")
+                                      host="host",
+                                      port="port",
+                                      database="database")
 
         cursor = connection.cursor()
 
@@ -71,11 +71,11 @@ def connect_DB2(table):
 def connect_DB3(tablename):
 
     try:
-        connection = psycopg2.connect(user="ecomarine",
+        connection = psycopg2.connect(user="user",
                                       password="password",
-                                      host="43.200.0.13",
-                                      port="27720",
-                                      database="ecomarine")
+                                      host="host",
+                                      port="port",
+                                      database="database")
 
         cursor = connection.cursor()
         df = pd.read_sql(f"SELECT * FROM {tablename}", connection)
@@ -88,11 +88,11 @@ def connect_DB3(tablename):
 def connect_DB4(tablename):
 
     try:
-        connection = psycopg2.connect(user="ecolabmaster",
+        connection = psycopg2.connect(user="user",
                                       password="password",
-                                      host="118.67.128.207",
-                                      port="5432",
-                                      database="oceanlook")
+                                      host="host",
+                                      port="port",
+                                      database="database")
 
         cursor = connection.cursor()
         df = pd.read_sql(f"SELECT * FROM {tablename}", connection)
@@ -284,11 +284,11 @@ def extract_data_from_postgresQL(cur_table, kr_table, col):
 
 def update_table_in_postgresQL(krTableName, tablename):
     try:
-        connection = psycopg2.connect(user="ecolabmaster",
+        connection = psycopg2.connect(user="user",
                                       password="password",
-                                      host="118.67.128.207",
-                                      port="5432",
-                                      database="oceanlook")
+                                      host="host",
+                                      port="port",
+                                      database="database")
 
         cursor = connection.cursor()
 
