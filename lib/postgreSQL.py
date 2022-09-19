@@ -20,7 +20,7 @@ def connect_DB(table, kr_table):
 
     try:
         connection = psycopg2.connect(user="ecolabmaster",
-                                      password="Ecomarine1!",
+                                      password="password",
                                       host="118.67.128.207",
                                       port="5432",
                                       database="oceanlook")
@@ -53,7 +53,7 @@ def connect_DB2(table):
 
     try:
         connection = psycopg2.connect(user="ecolabmaster",
-                                      password="Ecomarine1!",
+                                      password="password",
                                       host="118.67.128.207",
                                       port="5432",
                                       database="oceanlook")
@@ -72,7 +72,7 @@ def connect_DB3(tablename):
 
     try:
         connection = psycopg2.connect(user="ecomarine",
-                                      password="Ecomarine1!",
+                                      password="password",
                                       host="43.200.0.13",
                                       port="27720",
                                       database="ecomarine")
@@ -89,7 +89,7 @@ def connect_DB4(tablename):
 
     try:
         connection = psycopg2.connect(user="ecolabmaster",
-                                      password="Ecomarine1!",
+                                      password="password",
                                       host="118.67.128.207",
                                       port="5432",
                                       database="oceanlook")
@@ -285,7 +285,7 @@ def extract_data_from_postgresQL(cur_table, kr_table, col):
 def update_table_in_postgresQL(krTableName, tablename):
     try:
         connection = psycopg2.connect(user="ecolabmaster",
-                                      password="Ecomarine1!",
+                                      password="password",
                                       host="118.67.128.207",
                                       port="5432",
                                       database="oceanlook")
