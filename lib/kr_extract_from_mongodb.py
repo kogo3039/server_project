@@ -19,13 +19,13 @@ from pyapi.lib.preprocessing_road_dictionary import *
 
 
 # mongodb 연동
-_id = "ecomarine"
-password = "Ecomarine1!"
-host = "43.200.0.13"
-port = 27710
-CONST_MONGO_LOCAL_DB = "ecomarine"
+_id = "id"
+password = "password"
+host = "host"
+port = port
+CONST_MONGO_LOCAL_DB = "db"
 CONST_MONGO_LOCAL_URL = f"mongodb://{_id}:{password}@{host}:{port}/{CONST_MONGO_LOCAL_DB}?authSource=admin"
-CONST_MONGO_LOCAL_COLLECTION = "vesselNaviData_Spire_"
+CONST_MONGO_LOCAL_COLLECTION = "collection"
 
 
 def aggregate_mongo_data_from(collection_name, pipline={}):
